@@ -1,0 +1,156 @@
+*{
+    background-color:beige;
+}
+
+.contenedor{
+    display: flex;
+}
+/*mas grandes*/
+@media screen and (min-width: 1200px){
+    .contenedor{
+        display: flex;
+        width: 100%;
+    }
+    .caja{
+        font-size: 2rem;
+        margin: 2rem;
+        width: 10%;
+        height: 100px;
+    }
+    #caja1{
+        background-color: rgb(255, 102, 0);
+        color: black;
+    }
+    #caja2{
+        background-color: grey;
+        color: black;
+    }
+    #caja3{
+        background-color: rgb(5, 150, 5);
+        color: black;
+    }
+    #caja4{
+        background-color: rgb(8, 172, 248);
+        color: black;
+    }
+    #caja5{
+        border: 2px solid plum;
+        background-color: white;
+        color: black;
+        width: 400px;
+    }
+}
+
+/*pc*/
+@media screen and (max-width: 1200px){
+    .contenedor{
+        display: flex;
+        flex-flow: row wrap;
+        width: 70%;
+    }
+    .caja{
+        font-size: 2rem;
+        margin: 2rem;
+        width: 180px;
+        height: 50px;
+    }
+    #caja1{
+        background-color: rgb(255, 102, 0);
+        color: black;
+    }
+    #caja2{
+        background-color: grey;
+        color: white;
+    }
+    #caja3{
+        background-color: rgb(5, 150, 5);
+        color: black;
+    }
+    #caja4{
+        background-color: white;
+        color: rgb(8, 172, 248);
+        border: 2px solid rgb(8, 172, 248);
+        width: 35%;
+
+    }
+    #caja5{
+        border: 2px solid plum;
+        background-color: white;
+        color: plum;
+        width: 35%;
+    }
+    
+}
+/*tablet*/
+@media screen and (max-width: 992px) and (min-width: 768px){
+    .contenedor{
+        display: flex;
+        flex-flow: row wrap;
+        width: 70%;
+    }
+    .caja{
+        font-size: 2rem;
+        margin: 2rem;
+        width: 180px;
+        height: 50px;
+    }
+    #caja1{
+        background-color: rgb(255, 102, 0);
+        color: black;
+    }
+    #caja2{
+        background-color: grey;
+        color: white;
+    }
+    #caja3{
+        background-color: rgb(5, 150, 5);
+        color: black;
+    }
+    #caja4{
+        background-color: rgb(8, 172, 248);
+        color: white;
+    }
+    #caja5{
+        border: 2px solid plum;
+        background-color: white;
+        color: plum;
+        width: 62%;
+    }
+}
+/*movil*/
+@media screen and (max-width: 768px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .caja{
+        font-size: 2rem;
+        margin: 2rem;
+        width: 180px;
+        height: 50px;
+    }
+    #caja1{
+        background-color: rgb(255, 102, 0);
+        color: black;
+    }
+    #caja2{
+        background-color: grey;
+        color: white;
+    }
+    #caja3{
+        background-color: rgb(5, 150, 5);
+        color: white;
+    }
+    #caja4{
+        background-color: rgb(8, 172, 248);
+        color: white;
+    }
+    #caja5{
+        background-color: plum;
+        color: black;
+    }
+  }
+
+
+
+
